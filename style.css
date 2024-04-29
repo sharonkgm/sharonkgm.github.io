@@ -812,8 +812,8 @@ nav.sticky .menu-btn {
   }
 
   .overlay-image {
-    max-width: 50%; /* Adjust the max-width as needed */
-    top: 55%; /* Adjust as needed */
+    max-width: 45%; /* Adjust the max-width as needed */
+    top: 45%; /* Adjust as needed */
     left: 70%; /* Adjust as needed */
     transform: translate(-50%, -50%);
   }
