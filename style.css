@@ -713,7 +713,7 @@ footer .text span a:hover{
 
 
 /* Reduce padding for mobile screens */
-@media (max-width: 500px) {
+@media (max-width: 300px) {
   nav {
     padding: 15px 0;
   }
