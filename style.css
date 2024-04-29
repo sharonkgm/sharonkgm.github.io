@@ -941,8 +941,8 @@ nav.sticky .menu-btn {
 }
 
 @media screen and (max-width: 767px) {
-  .services .title{
-    align-items: center;
+  .title{
+    text-align: center;
   }
   
    .popup-content {
