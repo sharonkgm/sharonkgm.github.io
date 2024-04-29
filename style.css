@@ -789,7 +789,7 @@ nav.sticky .menu-btn {
 /* Responsive Media Query */
 @media screen and (max-width: 500px) {
   .home {
-    height: 85vh; /* Adjust as needed */
+    height: 80vh; /* Adjust as needed */
     background-size: auto;
   }
 
