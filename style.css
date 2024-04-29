@@ -919,29 +919,32 @@ nav.sticky .menu-btn {
     justify-content: flex-end; /* Center horizontally */
     align-items: center; /* Center vertically */
     position: absolute;
-    top: 195px; /* Adjust the top distance as needed */
-    right: 145px;
+    top: 200px; /* Adjust the top distance as needed */
+    right: 130px;
     transform: scale(2);
   }
   .projects .project-details .icon {
     color: #4070f4;
     position: absolute;
     top: 380px; /* Adjust the top distance as needed */
-    right: 105px;
+    right: 85px;
     transform: scale(5);
   }
   .projects .project-details .image {
     position: absolute;
-    top: -210px; /* Adjust the top distance as needed */
-    right: -150px;
+    top: -190px; /* Adjust the top distance as needed */
+    right: -190px;
     transform: scale(.2);
   } 
 
 }
 
 @media screen and (max-width: 750px) {
+  .services .title{
+    align-items: center;
+  }
   
-  .popup-content {
+   .popup-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
