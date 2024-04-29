@@ -900,6 +900,7 @@ nav.sticky .menu-btn {
 @media screen and (max-width: 767px) {
 
   .project-details {
+    width: 100%;
     position: relative;
     padding: 40px 40px; /* Adjust padding as needed */
     margin: 20px; /* Adjust margin as needed */
@@ -909,7 +910,7 @@ nav.sticky .menu-btn {
   }
   
   .projects .project-details .project-para{
-    width: 95%;
+    width: 100%;
     margin:200px 0 auto;
     text-align: justify;
     color: #0E2431;
