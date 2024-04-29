@@ -713,7 +713,7 @@ footer .text span a:hover{
 
 
 /* Reduce padding for mobile screens */
-@media (max-width: 300px) {
+@media (max-width: 750px) {
   nav {
     padding: 15px 0;
   }
@@ -814,7 +814,7 @@ nav.sticky .menu-btn {
   .overlay-image {
     max-width: 60%; /* Adjust the max-width as needed */
     top: 55%; /* Adjust as needed */
-    left: 70%; /* Adjust as needed */
+    left: 90%; /* Adjust as needed */
     transform: translate(-50%, -50%);
   }
 }
