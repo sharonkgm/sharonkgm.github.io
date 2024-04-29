@@ -942,6 +942,7 @@ nav.sticky .menu-btn {
 
 @media screen and (max-width: 767px) {
   .title{
+    display: flex;
     text-align: center;
   }
   
