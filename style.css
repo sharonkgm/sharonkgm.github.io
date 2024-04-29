@@ -787,7 +787,7 @@ nav.sticky .menu-btn {
 
 
 /* Responsive Media Query */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .home {
     height: 85vh; /* Adjust as needed */
     background-size: auto;
@@ -821,7 +821,7 @@ nav.sticky .menu-btn {
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   section .title span {
     font-size: 24px; /* Decrease font size for smaller screens */
   }
@@ -874,7 +874,7 @@ nav.sticky .menu-btn {
   }
 }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 500px) {
     section .button button {
       padding: 8px 16px; /* Adjust padding for smaller screens */
       font-size: 16px; /* Adjust font size for smaller screens */
@@ -882,7 +882,7 @@ nav.sticky .menu-btn {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
 
   .skills {
     font-size: 16px;
@@ -897,7 +897,7 @@ nav.sticky .menu-btn {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
 
   .project-details {
     position: relative;
@@ -939,7 +939,7 @@ nav.sticky .menu-btn {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .services .title{
     align-items: center;
   }
@@ -963,7 +963,7 @@ nav.sticky .menu-btn {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   
   .contact .info {
     display: flex;
