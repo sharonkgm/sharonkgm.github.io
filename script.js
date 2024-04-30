@@ -14,11 +14,39 @@ window.onscroll = function() {
 
 }
 
-// Side NavIgation Menu JS Code
+// Side Navigation Menu JS Code
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
 let cancelBtn = document.querySelector(".cancel-btn");
+
+// Select all menu items
+let menuItems = document.querySelectorAll(".navbar .menu a");
+
+// Add click event listeners to menu items
+menuItems.forEach(item => {
+  item.addEventListener("click", function(event) {
+    // Prevent default link behavior
+    event.preventDefault();
+
+    // Get the target section ID from the href attribute
+    let targetId = item.getAttribute("href").substring(1);
+
+    // Find the target section by ID
+    let targetSection = document.getElementById(targetId);
+
+    // Scroll to the target section smoothly
+    targetSection.scrollIntoView({ behavior: "smooth" });
+
+    // Close the side navigation menu
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+    body.style.overflow = "auto";
+    scrollBtn.style.pointerEvents = "auto";
+  });
+});
+
 menuBtn.onclick = function(){
   navBar.classList.add("active");
   menuBtn.style.opacity = "0";
@@ -26,6 +54,7 @@ menuBtn.onclick = function(){
   body.style.overflow = "hidden";
   scrollBtn.style.pointerEvents = "none";
 }
+
 cancelBtn.onclick = function(){
   navBar.classList.remove("active");
   menuBtn.style.opacity = "1";
@@ -33,6 +62,7 @@ cancelBtn.onclick = function(){
   body.style.overflow = "auto";
   scrollBtn.style.pointerEvents = "auto";
 }
+
 
 // Side Navigation Bar Close While We Click On Navigation Links
 let navLinks = document.querySelectorAll(".menu li a");
