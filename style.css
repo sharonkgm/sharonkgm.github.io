@@ -123,7 +123,7 @@ nav.sticky .menu-btn{
   position: relative; /* Ensure positioning context for absolute positioning */
   height: 100vh;
   width: 100%;
-  background: url("Images/portfolio1.svg") no-repeat;
+  background: url("images/portfolio1.svg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -263,10 +263,13 @@ section .title span::after{
   width: 55%;
 }
 section  .topic{
-  color: #0E2431;
+  color: #000000;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
 .about-details .right p{
   text-align: justify;
@@ -336,7 +339,7 @@ section .button button:hover{
 
 .education .event {
   position: relative; /* Add position relative to allow absolute positioning of .icon */
-  margin: 20px 0;
+  margin: 20px;
   width: calc(100% - 40px); /* Subtracting margin from total width */
   text-align: center;
   border-radius: 12px;
@@ -591,6 +594,7 @@ footer .text span a:hover{
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
+  z-index: 999;
 }
 
 /* Responsive Media Query */
@@ -648,7 +652,7 @@ footer .text span a:hover{
   nav .navbar .menu a{
     font-size: 23px;
     display: block;
-    color: #fff;
+    color: #ffffff;
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
@@ -715,7 +719,7 @@ footer .text span a:hover{
 /* Reduce padding for mobile screens */
 @media (max-width: 750px) {
   nav {
-    padding: 15px 0;
+    padding: 16px 0;
   }
 }
 
@@ -725,7 +729,7 @@ nav.sticky {
 }
 
 nav .navbar {
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -756,7 +760,7 @@ nav .menu-btn,
   position: absolute;
   color: #fff;
   right: 20px;
-  top: 20px;
+  top: 18px;
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -787,19 +791,32 @@ nav.sticky .menu-btn {
 
 
 /* Responsive Media Query */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
   .home {
-    height: 80vh; /* Adjust as needed */
-    background-size: auto;
+    position: relative; /* Ensure positioning context for absolute positioning */
+    height: 80vh;
+    width: 100%;
+    background: url("images/portfolio2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
-
+  
+  .home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .home .text-two {
-    font-size: 30px;
+    font-size: 45px;
     margin-left: -1px;
   }
   
   .home .text-three {
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .home .text-four {
@@ -812,16 +829,13 @@ nav.sticky .menu-btn {
   }
 
   .overlay-image {
-    max-width: 45%; /* Adjust the max-width as needed */
-    top: 45%; /* Adjust as needed */
-    left: 70%; /* Adjust as needed */
-    transform: translate(-50%, -50%);
+   display: none;
   }
 }
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
   section .title span {
     font-size: 24px; /* Decrease font size for smaller screens */
   }
@@ -839,6 +853,9 @@ nav.sticky .menu-btn {
     height: 50%;
   }
   .about .left img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 200px;
     object-fit: contain;
@@ -874,7 +891,7 @@ nav.sticky .menu-btn {
   }
 }
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: 750px) {
     section .button button {
       padding: 8px 16px; /* Adjust padding for smaller screens */
       font-size: 16px; /* Adjust font size for smaller screens */
@@ -882,7 +899,7 @@ nav.sticky .menu-btn {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
 
   .skills {
     font-size: 16px;
@@ -897,18 +914,16 @@ nav.sticky .menu-btn {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
 
   .project-details {
     width: 100%;
-    position: relative;
     padding: 40px 40px; /* Adjust padding as needed */
-    margin: 20px; /* Adjust margin as needed */
+    margin: 20px 0px; /* Adjust margin as needed */
     background-color: #ffffff; /* Background color for skill boxes */
     border-radius: 8px; /* Rounded corners for skill boxes */
     text-align: center;
   }
-  
   .projects .project-details .project-para{
     width: 100%;
     margin:200px 0 auto;
@@ -917,36 +932,37 @@ nav.sticky .menu-btn {
   }
   .animated-svg {
     display: flex;
-    justify-content: flex-end; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    position: absolute;
-    top: 200px; /* Adjust the top distance as needed */
-    right: 130px;
+    justify-content: center;
+    align-items: center;
+    top:230px;
+    right:100px;
     transform: scale(2);
   }
   .projects .project-details .icon {
-    color: #4070f4;
-    position: absolute;
-    top: 380px; /* Adjust the top distance as needed */
-    right: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:370px;
+    right:75px;
     transform: scale(5);
   }
   .projects .project-details .image {
-    position: absolute;
-    top: -190px; /* Adjust the top distance as needed */
-    right: -190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-180px;
+    left:-120px;
     transform: scale(.2);
   } 
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
+  
   .title{
-    display: flex;
     text-align: center;
   }
-  
-   .popup-content {
+  .popup-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -965,7 +981,7 @@ nav.sticky .menu-btn {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
   
   .contact .info {
     display: flex;
