@@ -796,7 +796,7 @@ nav.sticky .menu-btn {
     position: relative; /* Ensure positioning context for absolute positioning */
     height: 80vh;
     width: 100%;
-    background: url("images/portfolio2.png") no-repeat;
+    background: url("Images/portfolio2.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
