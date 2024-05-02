@@ -421,7 +421,7 @@ p {
   position: absolute;
   top: -200px; /* Adjust the top distance as needed */
   right: -60px;
-  transform: scale(.4);
+  transform: scale(.3);
 }
 @keyframes tilt {
   0% {
