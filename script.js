@@ -109,3 +109,8 @@ const observer = new IntersectionObserver(entries => {
 
 // Observe the target element (the 'left' div)
 observer.observe(document.querySelector('.left'));
+
+
+function openEmail() {
+  window.location.href = "mailto:sharontkkgm@gmail.com";
+}
