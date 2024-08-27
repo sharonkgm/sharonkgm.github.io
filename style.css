@@ -419,8 +419,8 @@ p {
 }
 .projects .project-details .image {
   position: absolute;
-  top: -200px; /* Adjust the top distance as needed */
-  right: -60px;
+  top: -260px; /* Adjust the top distance as needed */
+  right: -260px;
   transform: scale(.3);
 }
 @keyframes tilt {
