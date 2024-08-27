@@ -278,7 +278,7 @@ section  .topic{
   color: #0E2431;
 }
 section .button{
-  margin: 16px 0;
+  margin-top: 50px;
 }
 section .button button{
   outline: none;
