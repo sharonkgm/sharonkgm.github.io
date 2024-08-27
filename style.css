@@ -956,8 +956,8 @@ nav.sticky .menu-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    top:-180px;
-    left:-120px;
+    top:-260px;
+    left:-260px;
     transform: scale(.2);
   } 
 
