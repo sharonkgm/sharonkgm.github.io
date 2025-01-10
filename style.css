@@ -390,6 +390,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background: #e1eef9;
 }
 .project-details a {
   color: blue;
