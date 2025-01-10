@@ -172,7 +172,7 @@ nav.sticky .menu-btn{
 }
 .home .button button{
   outline: none;
-  padding: 8px 16px;
+  padding: 10px 26px;
   border-radius: 6px;
   font-size: 22px;
   font-weight: 400;
@@ -282,9 +282,9 @@ section .button{
 }
 section .button button{
   outline: none;
-  padding: 8px 16px;
+  padding: 10px 26px;
   border-radius: 4px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   background: #4070f4;
   color: #fff;
