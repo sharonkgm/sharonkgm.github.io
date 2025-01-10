@@ -443,7 +443,23 @@ p {
   animation: tilt 0.5s infinite; /* Apply the animation to the icon */
 }
 
-  
+.projects .project-details .button button{
+  outline: none;
+  padding: 10px 26px;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.projects .project-details .button button:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}  
 
 /* My Services CSS */
 .services .boxes{
