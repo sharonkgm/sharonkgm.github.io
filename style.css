@@ -313,7 +313,7 @@ section .button button:hover{
   display: flex;
   justify-content: space-evenly; /* Equal spacing between items */
   flex-wrap: wrap; /* Wrap items to new line if necessary */
-  max-width: 800px; /* Limit width if needed */
+  max-width: 900px; /* Limit width if needed */
 }
 
 .skill {
