@@ -387,11 +387,9 @@ p {
   padding: 20px;
 }
 .project-details {
-  position: relative;
-  padding: 40px 40px; /* Adjust padding as needed */
-  margin: 20px; /* Adjust margin as needed */
-  background-color: #ffffff; /* Background color for skill boxes */
-  border-radius: 8px; /* Rounded corners for skill boxes */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .project-details a {
   color: blue;
