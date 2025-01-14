@@ -420,9 +420,7 @@ p {
   transform: scale(8);
 }
 .projects .project-details .image {
-  position: absolute;
-  top: -260px; /* Adjust the top distance as needed */
-  right: -260px;
+  position: relative;
   transform: scale(.3);
 }
 @keyframes tilt {
