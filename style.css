@@ -272,6 +272,16 @@ section .title span::after{
 section .button{
   margin-top: 50px;
 }
+
+section .topic {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 section .button button{
   outline: none;
   padding: 10px 26px;
