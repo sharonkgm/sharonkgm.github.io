@@ -392,31 +392,54 @@ p {
   padding: 20px;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds vertical spacing between title, paragraph, and button */
+  max-width: 60%; /* Adjust the width of the text section */
+}
+
 .topic {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
   text-align: left;
 }
 
-.project-para .content-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project-para p {
-  width: 60%; /* Adjust as needed */
+.text-content p {
   margin: 0;
+  line-height: 1.6;
+  text-align: left;
 }
 
-.project-para .image {
-  width: 35%; /* Adjust as needed */
-  display: flex;
-  justify-content: center;
+.button {
+  text-align: left;
 }
 
-.project-para .image img {
+.button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+
+.image {
+  max-width: 35%; /* Adjust the image section width */
+  text-align: right;
+}
+
+.image img {
   max-width: 100%;
   height: auto;
 }
