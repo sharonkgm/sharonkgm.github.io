@@ -388,40 +388,36 @@ p {
   padding: 20px;
 }
 .project-details {
-  position: relative;
-  padding: 40px 40px; /* Adjust padding as needed */
-  margin: 20px; /* Adjust margin as needed */
-  background-color: #ffffff; /* Background color for skill boxes */
-  border-radius: 8px; /* Rounded corners for skill boxes */
-}
-.project-details a {
-  color: blue;
+  width: 100%;
+  padding: 20px;
 }
 
-.projects .project-details .project-para{
-  width: 55%;
-  text-align: justify;
-  color: #0E2431;
+.topic {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.animated-svg {
+
+.project-para .content-container {
   display: flex;
-  justify-content: flex-end; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  position: absolute;
-  top: 150px; /* Adjust the top distance as needed */
-  right: 230px;
-  transform: scale(2.5);
+  justify-content: space-between;
+  align-items: center;
 }
-.projects .project-details .icon {
-  color: #4070f4;
-  position: absolute;
-  top: 400px; /* Adjust the top distance as needed */
-  right: 150px;
-  transform: scale(8);
+
+.project-para p {
+  width: 60%; /* Adjust as needed */
+  margin: 0;
 }
-.projects .project-details .image {
-  position: relative;
-  transform: scale(.3);
+
+.project-para .image {
+  width: 35%; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.project-para .image img {
+  max-width: 100%;
+  height: auto;
 }
 @keyframes tilt {
   0% {
