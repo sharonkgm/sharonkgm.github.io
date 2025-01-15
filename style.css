@@ -280,7 +280,7 @@ section .topic {
     justify-content: center;
 }
 
-.ab-button{
+.button{
   outline: none;
   padding: 10px 26px;
   border-radius: 4px;
@@ -292,7 +292,7 @@ section .topic {
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.ab-button:hover{
+.button:hover{
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
