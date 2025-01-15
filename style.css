@@ -269,9 +269,6 @@ section .title span::after{
   text-align: justify;
   color: #0E2431;
 }
-section .button{
-  margin-top: 50px;
-}
 
 section .topic {
     color: #000000;
