@@ -279,8 +279,10 @@ section .topic {
     display: flex;
     justify-content: center;
 }
-
-.button{
+.about-button {
+  margin-top: 30px; /* Adds 30px space after the paragraph */
+}
+.about-button button{
   outline: none;
   padding: 10px 26px;
   border-radius: 4px;
@@ -292,7 +294,7 @@ section .topic {
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.button:hover{
+.about-button button:hover{
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
