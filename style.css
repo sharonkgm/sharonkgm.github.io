@@ -403,7 +403,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Adds vertical spacing between title, paragraph, and button */
-  max-width: 60%; /* Adjust the width of the text section */
+  max-width: 55%; /* Adjust the width of the text section */
 }
 
 .pj-topic {
