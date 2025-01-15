@@ -437,7 +437,7 @@ p {
 }
 
 .image {
-  max-width: 35%; /* Adjust the image section width */
+  max-width: 65%; /* Adjust the image section width */
   text-align: right;
 }
 
