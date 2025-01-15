@@ -407,8 +407,9 @@ p {
 }
 
 .pj-topic {
-  font-size: 1.5rem;
-  font-weight: bold;
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
   text-align: left;
 }
 
