@@ -280,7 +280,7 @@ section .topic {
     justify-content: center;
 }
 .about-button {
-  margin-top: 30px; /* Adds 30px space after the paragraph */
+  margin-top: 50px; /* Adds 30px space after the paragraph */
 }
 .about-button button{
   outline: none;
