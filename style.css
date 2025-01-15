@@ -414,7 +414,7 @@ p {
 }
 
 .text-content p {
-  margin: 0;
+  margin-bottom: 30px;
   line-height: 1.6;
   text-align: left;
 }
