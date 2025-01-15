@@ -395,8 +395,8 @@ p {
 
 .content-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center;
 }
 
 .text-content {
