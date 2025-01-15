@@ -406,7 +406,7 @@ p {
   max-width: 60%; /* Adjust the width of the text section */
 }
 
-.topic {
+.pj-topic {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: left;
